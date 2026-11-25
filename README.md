@@ -1,10 +1,11 @@
-# Redmi Note 14 5G — HyperOS Safe Optimization & Diagnostics Framework
+# ⚡ HyperTune — Safe Optimization Framework for Redmi Note 14 5G
 
 [![Target Device](https://img.shields.io/badge/Device-Redmi%20Note%2014%205G-orange.svg)](https://www.mi.com)
 [![OS Version](https://img.shields.io/badge/OS-Xiaomi%20HyperOS%203.0.303.0-blue.svg)](https://hyperos.mi.com)
 [![Android](https://img.shields.io/badge/Android-16-green.svg)](https://android.com)
 [![Method](https://img.shields.io/badge/Method-Non--Root%20ADB%20Read--Only-purple.svg)]()
 [![Safety Status](https://img.shields.io/badge/Safety-Zero%20Packages%20Disabled-brightgreen.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A battle-tested, privacy-preserving, and non-root optimization framework engineered specifically for the **Redmi Note 14 5G (6GB RAM, MediaTek Dimensity, HyperOS / Android 16)**.
 
@@ -114,7 +115,12 @@ optimize-your-redmi14-5g/
 │   └── final-summary.md                 # Complete post-session engineering summary & audit log
 ├── .gitignore                           # Git ignore rules for local keys, media & temporary files
 ├── MEMORY.md                            # Living development context, decisions log & progress state
-└── README.md                            # Main project documentation & user guide
+├── README.md                            # Main project documentation & user guide
+├── LICENSE                              # MIT License
+├── SECURITY.md                          # Security policy & vulnerability reporting
+├── CONTRIBUTING.md                      # Contribution guidelines & PR process
+├── CODE_OF_CONDUCT.md                   # Community code of conduct
+└── ISSUES.md                            # Issue templates & FAQ
 ```
 
 ---
@@ -320,10 +326,17 @@ Once your phone is running fast and smooth:
 
 ## 📄 Contributing & License
 
-Contributions, issue reports, and diagnostic suggestions for other Xiaomi HyperOS devices are welcome! Please ensure all submitted pull requests adhere to `.agent/rules/phone-safety.md` (no raw ADB commands, strict read-only diagnostics, and zero bootloop risks).
+We welcome contributions, device reports, and diagnostic improvements from the Xiaomi community! Before contributing, please read:
 
-This project is open-source under the [MIT License](LICENSE).
+- 📖 **[Contributing Guide](CONTRIBUTING.md)** — How to submit PRs, report bugs, and add device support
+- 🐛 **[Issue Guidelines](ISSUES.md)** — Templates and rules for opening issues
+- 🤝 **[Code of Conduct](CODE_OF_CONDUCT.md)** — Our community standards
+- 🔒 **[Security Policy](SECURITY.md)** — How to responsibly report vulnerabilities
+
+All submitted pull requests must adhere to `.agent/rules/phone-safety.md` (no raw ADB commands, strict read-only diagnostics, and zero bootloop risks).
+
+This project is open-source under the **[MIT License](LICENSE)**.
 
 ---
 
-*Engineered with precision for the Redmi Note 14 5G community by [AJAYMYTH](https://github.com/AJAYMYTH).*
+*Engineered with precision for the Redmi Note 14 5G community by [AJAYMYTH](https://github.com/AJAYMYTH).* ⚡
