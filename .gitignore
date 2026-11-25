@@ -1,0 +1,24 @@
+# Local Android configuration & keys
+.android/
+.android/*
+
+# Agent temporary & system generated directories
+.system_generated/
+*.log
+
+# Video / Screenrecordings & media
+*.mp4
+*.mkv
+*.avi
+*.part
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# PowerShell transient history
+*.tmp
+*.temp

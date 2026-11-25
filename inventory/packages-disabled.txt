@@ -1,0 +1,8 @@
+## Disabled Packages (pm list packages -d)
+## Captured: 2026-11-24T00:14 IST
+## Device: Redmi Note 14 5G (beryl) | HyperOS OS3.0.303.0.WOQINXM | Android 16
+
+package:com.google.android.devicelockcontroller
+package:com.google.android.gms.supervision
+package:com.android.virtualization.terminal
+package:com.android.nfc
