@@ -1,4 +1,9 @@
-# ⚡ HyperTune — Safe Optimization Framework for Redmi Note 14 5G
+<p align="center">
+  <img src="assets/hypertune-logo.jpg" alt="HyperTune Logo" width="700">
+</p>
+
+<h1 align="center">⚡ HyperTune</h1>
+<p align="center"><b>Safe Optimization Framework for Redmi Note 14 5G</b></p>
 
 [![Target Device](https://img.shields.io/badge/Device-Redmi%20Note%2014%205G-orange.svg)](https://www.mi.com)
 [![OS Version](https://img.shields.io/badge/OS-Xiaomi%20HyperOS%203.0.303.0-blue.svg)](https://hyperos.mi.com)
